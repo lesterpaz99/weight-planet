@@ -1,0 +1,54 @@
+.container {
+    display: inline-block;
+}
+
+.form-group {
+    width: 80%;
+    margin: 0 auto;
+    transition: none;
+}
+
+.result-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.values img {
+    width: 42px;
+}
+
+button {
+    padding: 1rem;
+}
+
+.show-result {
+    width: 70%;
+}
+
+.clear {
+    width: 30%;
+}
+
+#result {
+    font-size: 1.4rem;
+}
+
+.show {
+    transition: 0.3s ease-in;
+}
+
+.move-left {
+    transform: none;
+    transition: none;
+}
+
+footer {
+    line-height: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.photo-credits {
+    position: static;
+    margin-top: .5rem;
+}

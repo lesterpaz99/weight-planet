@@ -1,0 +1,36 @@
+:root {
+    font-size: 14px;
+}
+
+header h1 {
+    font-size: 1.92rem;
+}
+
+header h1 span {
+    font-weight: 700;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.values {
+    border-bottom: solid 1px var(--font-color-2);
+}
+
+.values img {
+    width: 32px;
+}
+
+#planet,  #weight {
+    font-size: 1.1rem;
+}
+
+#result {
+    font-size: 1.2rem;
+}
+
+.photo-credits {
+    position: static;
+    margin-top: 0;
+}

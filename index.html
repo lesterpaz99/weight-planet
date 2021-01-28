@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <link rel="stylesheet" href="./styles/desktop.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/tablet.css"
+      media="only screen and (max-width: 780px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/mobile.css"
+      media="only screen and (max-width: 480px)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>
+          your weight on another<br />
+          <span>Planet</span>
+        </h1>
+      </header>
+      <div class="container">
+        <form class="form-group" id="form-group">
+          <label class="values">
+            <select name="planet" id="planet">
+              <option value="">I want to know my weight in:</option>
+              <option value="Mercury">Mercury</option>
+              <option value="Venus">Venus</option>
+              <option value="Mars">Mars</option>
+              <option value="Jupiter">Jupiter</option>
+              <option value="Saturn">Saturn</option>
+              <option value="Uranus">Uranus</option>
+              <option value="Neptune">Neptune</option>
+            </select>
+            <span>
+              <img src="img/icons/planet.png" alt="Planet Icon" />
+            </span>
+          </label>
+          <label class="values">
+            <input
+              type="number"
+              id="weight"
+              value=""
+              placeholder="Enter your weight on earth"
+            />
+            <span>
+              <img src="img/icons/diet.png" alt="Weight Icon" />
+            </span>
+          </label>
+          <label class="buttons">
+            <button id="show-result" class="show-result">See</button>
+            <button class="clear" id="clear">Clear</button>
+          </label>
+        </form>
+        <div class="result-container">
+          <p id="result"></p>
+        </div>
+      </div>
+      <footer>
+        <div class="info">
+          <p>
+            Moon's gravity is 1.62 m/s² and Sun's gravity our star is 274 m/s².
+          </p>
+        </div>
+        <div class="photo-credits">
+          <p>
+            <span
+              >Photo by
+              <a
+                href="https://unsplash.com/@paulgilmore_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Paul Gilmore</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/universe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              ></span
+            >
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
